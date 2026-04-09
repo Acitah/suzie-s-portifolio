@@ -29,15 +29,20 @@
 }
 .btn{
     width: 45%;
+    
 }
 .info img{
-    height: 400px; 
+    height: 450px;
+    width: 400px; 
 }
-button{
+a{
+    text-decoration: none;
+}
+button, .cv{
     padding: 10px;
     background-color: blue;
     border-radius: 5px;
-    
+    color: black;
     margin-top: 15px;
     cursor: pointer;
 }
@@ -48,13 +53,9 @@ svg{
     
     
 }
-.profile-pic{
-    border: 3px solid red;
-    
-}
 
 .about img{
-    border: 3px solid red;
+    
     width: 200px;
     height: 200px;
 }
@@ -224,7 +225,7 @@ form button{
 } 
 @media (max-width:600px){
     .info img{
-       height: 200px;
+       height: 350px;
        width: 300px;
         
     }
@@ -241,7 +242,7 @@ form button{
         
     }
     svg{
-        margin-top: 300px;
+        margin-top: 400px;
     }
     .btn{
         width: 100%;

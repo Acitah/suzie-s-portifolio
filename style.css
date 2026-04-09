@@ -279,7 +279,7 @@ form button{
         display: flex;
         justify-content: center;
     }
-    .about img{
+    /* .about img{
     margin-top: 10px;
     width: 300px;
     height: 200px;
@@ -287,7 +287,11 @@ form button{
     object-fit:cover;
     display: flex;
     justify-self: center;
-}
+} */
+ .About-Me img{
+        margin-top: 10px;
+        width: 80%;
+    }
 
 }
 .button{

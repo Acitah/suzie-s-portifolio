@@ -492,7 +492,7 @@ button, .cv{
  .contacts{
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+    
     justify-content: start;
  }
  .connect i{

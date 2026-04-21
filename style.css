@@ -121,6 +121,7 @@ button, .cv{
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+    gap: 10rem;
     
 }
 
@@ -190,9 +191,31 @@ ul li{
 /* TESTIMONIALS */
 .testimonials{
     padding: 30px 150px ;
-   
+}
+.testimonials .cards .card{
+    display: flex;
+    flex-direction: row;
+
+}  
+.row{
+    
+    height: 5px;
+}
+.user{
+    width: max-content;
+    
     
 }
+.user i{
+    border: 1px solid rgb(156, 152, 152);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    opacity: 0.4;
+    margin-bottom: 8px;
+}
+    
+
 /* GET IN TOUCH */
 .getInTouch{
     padding: 30px 150px ;
